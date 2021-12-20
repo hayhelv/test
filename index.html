@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css">
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+    <header class="header conteiner">
+        <a href="./index.html" class="header__logo">Logo</a>
+        <nav class="site-nav">
+            <ul class="site-nav__list">
+                <li class="site-nav__item site-nav__item--current">
+                    <a href="#" class="site-nav__link">Menu</a>
+                </li>
+                <li class="site-nav__item">
+                    <a href="#" class="site-nav__link">About</a>
+                </li>
+                <li class="site-nav__item">
+                    <a href="#" class="site-nav__link">Contacts</a>
+                </li>
+            </ul>
+        </nav>
+        <ul class="contacts">
+                <li class="contacts__item">                    
+                    <a href="mailto:info@devstudio.com" class="contacts__link">
+                        info@gmail.com
+                    </a>
+                </li>
+                <li class="contacts__item">
+                    <a href="tel:+380961111111" class ="contacts__link">
+                        +38 096 111 11 11
+                    </a>
+                </li>
+            </ul>
+    </header>
+    <main>
+        <section class="column conteiner">
+            <div class="column__narrow">
+                <h3 class="narrow__title">My project</h3>
+                <ul class="narrow__list">
+                    <li class="narrow__item">
+                        <a class="narrow__link" href="https://hayhelv.github.io/goit-markup-hw-08/" target="_blank" rel="noopener noreferrer">Web Studio</a>
+                    </li>
+                    <li class="narrow__item">
+                        <a class="narrow__link" href="https://hayhelv.github.io/project-ice-cream/" target="_blank" rel="noopener noreferrer">Ice cream (team project)</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="column__wide">
+                <hi class="title">Title</hi>
+                <div class="modal">
+                    <form>
+                        <label class="modal__label">
+                            Name
+                            <div class="modal__row">
+                                <input class="modal__input" type="text" name="username">
+                            </div>
+                        </label>
+                        <label class="modal__label">
+                            Tel
+                            <div class="modal__row">
+                                <input class="modal__input" type="tel" name="phone_number">
+                            </div>
+                        </label>
+                        <label class="modal__label">
+                            Mail
+                            <div class="modal__row">
+                                <input class="modal__input" type="email" name="email">
+                            </div>
+                        </label>
+                        <label class="modal__label">
+                            Comment
+                            <div class="modal__row">
+                                <textarea class="modal__input modal__input--coment " name="coment" rows="10" placeholder="Enter the text"></textarea>
+                            </div>
+                        </label>
+                        <button class="modal__btn" type="submit">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+        
+    </main>    
+</body>
+</html>
